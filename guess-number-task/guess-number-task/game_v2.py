@@ -20,7 +20,7 @@ def random_predict(number: int = 1) -> int:
     
 
     while True:
-        predict_number = round ((min+max)/2)
+        predict_number = round ((minimum+maximum)/2)
         count += 1
         if number == predict_number:
             break  # выход из цикла если угадали
